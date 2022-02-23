@@ -15,7 +15,7 @@ $mail->SMTPAuth = true;
 $mail->SMTPSecure = 'tls';
 
 $mail->Username = 'raitochong@gmail.com';
-$mail->Password = 'Raito@5791';
+$mail->Password = 'password';
 
 $mail->setFrom('raitochong@gmail.com', 'Raito');
 $mail->addAddress('kwongwei135@gmail.com');
