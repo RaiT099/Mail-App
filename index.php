@@ -14,17 +14,17 @@ $mail->Port = 587;
 $mail->SMTPAuth = true;
 $mail->SMTPSecure = 'tls';
 
-$mail->Username = 'raitochong@gmail.com';
+$mail->Username = 'xxxx@gmail.com';
 $mail->Password = 'password';
 
-$mail->setFrom('raitochong@gmail.com', 'Raito');
-$mail->addAddress('kwongwei135@gmail.com');
-$mail->addReplyTo('raitochong@gmail.com');
+$mail->setFrom('xxxx@gmail.com', 'xxxx');
+$mail->addAddress('yyyy@gmail.com');
+$mail->addReplyTo('xxxx@gmail.com');
 
 $mail->isHTML(true);
 $mail->Subject = 'PHP Mailer Subject';
 $mail->Body = '<h1 align = center>Test</h>';
-$mail->addAttachment('C:\Users\ASUS\Pictures\Anime\kv_ubw.png');
+$mail->addAttachment('C:\Users\ASUS\Pictures\kv_ubw.png');
 
 if(!$mail->send()){
     echo 'Message could not be sent';
